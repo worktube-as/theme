@@ -1,6 +1,6 @@
 {
   "name": "worktube-theme",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "dependencies": {
     "color": "^3.1.2",
