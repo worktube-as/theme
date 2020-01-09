@@ -1,7 +1,7 @@
 import colors from '../colors';
 import blending from '../blending';
 import Color from 'color';
-const linkedin = {
+const youtube = {
   darken1: Color(colors.youtube).darken(blending.darken1.basic).hex(),
   default: colors.youtube,
   lighten1: Color(colors.youtube).alpha(blending.lighten1.basic).rgb().string(),
@@ -11,4 +11,4 @@ const linkedin = {
   lighten5: Color(colors.youtube).alpha(blending.lighten5.basic).rgb().string(),
   lighten6: Color(colors.youtube).alpha(blending.lighten6.basic).rgb().string()
 };
-export default linkedin;
+export default youtube;

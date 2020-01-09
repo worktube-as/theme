@@ -1,7 +1,7 @@
 import colors from '../colors';
 import blending from '../blending';
 import Color from 'color';
-const linkedin = {
+const gold = {
   darken1: Color(colors.gold).darken(blending.darken1.basic).hex(),
   default: colors.gold,
   lighten1: Color(colors.gold).alpha(blending.lighten1.basic).rgb().string(),
@@ -11,4 +11,4 @@ const linkedin = {
   lighten5: Color(colors.gold).alpha(blending.lighten5.basic).rgb().string(),
   lighten6: Color(colors.gold).alpha(blending.lighten6.basic).rgb().string()
 };
-export default linkedin;
+export default gold;

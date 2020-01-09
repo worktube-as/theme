@@ -1,7 +1,7 @@
 import colors from '../colors';
 import blending from '../blending';
 import Color from 'color';
-const linkedin = {
+const twitter = {
   darken1: Color(colors.twitter).darken(blending.darken1.basic).hex(),
   default: colors.twitter,
   lighten1: Color(colors.twitter).alpha(blending.lighten1.basic).rgb().string(),
@@ -11,4 +11,4 @@ const linkedin = {
   lighten5: Color(colors.twitter).alpha(blending.lighten5.basic).rgb().string(),
   lighten6: Color(colors.twitter).alpha(blending.lighten6.basic).rgb().string()
 };
-export default linkedin;
+export default twitter;
